@@ -59,3 +59,29 @@
     * What is need of Messaging Queue ? 
     * Different types of Messaging Queues are there like Kafka, RabbitMQ. 
     * In messaging Queue we get producer 
+    * We have a Producer, in messaging queue like Kafka, RabbitMQ, producer sends the message. Inside the subscriber there is queue Topics.
+    * Now subscriber takes the data into queue. Now it brings async nature 
+    * Terminologies 
+
+    * Exchange
+    * Queue1, Queue2 , ..
+    * Binding 
+    * FAN OUT
+    * TOPIC
+
+
+
+7) Database Scaling 
+
+    * It is of two types : Vertical / Horizontal
+    * Vertical Scaling : Already servers ki Capacity, CPU capability, RAM capability increase so that load request will taken care 
+    * But here there is limit on above we can't go
+
+    * Horizontal Scaling - Increase the number of Nodes,
+
+    * Horizontal Scaling - Sharding 
+    * Sharding is of two types - Horizontal, Vertical
+    * Horizontal Sharding - Row wise division
+
+    * Vertical Sharding - column wise division into multiple tables.
+    * There are drawbacks of Sharding - 
