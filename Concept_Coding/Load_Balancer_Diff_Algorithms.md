@@ -79,6 +79,5 @@
             * Now each server is having TTFB Calculated along with no of active connections. This response time is calculated by LB Dynamically .
             * It will pick the server with less TTFB and multiply with active connections.
 
-
         
 
